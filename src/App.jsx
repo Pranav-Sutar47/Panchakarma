@@ -1,15 +1,12 @@
-import { Button } from "./components/ui/button"
 
-
+// import AdminDashboard from "./admin/AdminDashboard"
+import AdminDashboard from "./admin/AdminDashboard.jsx"
+import UserDashboard from "./user/UserDashboard.jsx"
 function App() {
-
-
   return (
     <>
-    <h1 className="text-3xl font-bold underline text-[green]">
-      Hello world!
-    </h1>
-    <Button variant="outline">Button</Button>
+      {/* <AdminDashboard/> */}
+      <UserDashboard/>
     </>
   )
 }

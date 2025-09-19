@@ -1,0 +1,56 @@
+export const patients = [
+  {
+    id: 1,
+    name: "Rohit Sharma",
+    age: 42,
+    gender: "Male",
+    condition: "Joint Pain",
+    src: "https://randomuser.me/api/portraits/men/32.jpg",
+    steps: [
+      { name: "Snehana (Oil Massage)", done: true },
+      { name: "Swedana (Sudation Therapy)", done: true },
+      { name: "Vamana (Therapeutic Emesis)", done: false },
+      { name: "Virechana (Purgation Therapy)", done: false },
+      { name: "Basti (Medicated Enema)", done: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Anjali Mehta",
+    age: 35,
+    gender: "Female",
+    condition: "Skin Allergy",
+    src: "https://randomuser.me/api/portraits/women/44.jpg",
+    steps: [
+      { name: "Snehana (Oil Massage)", done: true },
+      { name: "Swedana (Sudation Therapy)", done: false },
+      { name: "Raktamokshana (Blood Letting)", done: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Amit Kumar",
+    age: 29,
+    gender: "Male",
+    condition: "Digestive Issues",
+    src: "https://randomuser.me/api/portraits/men/76.jpg",
+    steps: [
+      { name: "Snehana (Oil Massage)", done: false },
+      { name: "Swedana (Sudation Therapy)", done: false },
+      { name: "Virechana (Purgation Therapy)", done: false },
+    ],
+  },
+  {
+    id: 4,
+    name: "Priya Singh",
+    age: 50,
+    gender: "Female",
+    condition: "Stress & Anxiety",
+    src: "https://randomuser.me/api/portraits/women/12.jpg",
+    steps: [
+      { name: "Abhyanga (Full Body Massage)", done: true },
+      { name: "Shirodhara (Oil Dripping on Forehead)", done: true },
+      { name: "Nasya (Nasal Medication)", done: false },
+    ],
+  },
+];

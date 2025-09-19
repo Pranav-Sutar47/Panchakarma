@@ -82,7 +82,7 @@ export default function AdminDashboard() {
       {/* Header */}
       <div className="bg-white dark:bg-neutral-800 shadow-sm border-b border-neutral-200 dark:border-neutral-700">
         <div className="px-6 py-4 flex flex-row">
-          <img className='flex w-7 flex' src='/public/home iimage.png'></img>
+          <img className='flex w-7 flex' src='/public/homeimage.png'></img>
           <h1 className="ml-3 text-2xl font-bold text-neutral-800 dark:text-neutral-200">
             Admin Dashboard
           </h1>
